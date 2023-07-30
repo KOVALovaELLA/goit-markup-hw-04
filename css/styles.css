@@ -22,6 +22,9 @@
     --footer-color:#2E2F42;
     /**/
     --button-portfolio-color:#F4F4FD;
+
+    /* background color icons*/
+    --cloud:#F4F4FD;
 }
 
 
@@ -165,6 +168,7 @@ align-items: center;
 .studio-section-main{
     background-color:var(--studio-main-color);
     padding: 188px 0;
+    background-image:linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/people-office\ 1\ \(1\).jpg);
 }
 .h-first{
     font-size: 56px;
@@ -262,6 +266,16 @@ align-items: center;
 .adventagy-item{
     width: calc((100% - 72px) / 4);
    
+}
+.adventagy-block{
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+background: var(--cloud);
+margin-bottom: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
  
 .studio-images-doing{
