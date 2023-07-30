@@ -388,7 +388,21 @@ text-align: center;
     background-color:var(--footer-color);
     padding: 100px 0;  
 }
-
+.footer-container{
+    display: flex;
+    align-items: baseline;
+}
+.footer-logo-p{
+    margin-right: 120px;
+}
+.footer-socials-p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
 .usual-text-footer {
     line-height: 1.5;
     color: var(--color-footer-text);
