@@ -67,7 +67,9 @@
         <section class="studio-section-main">
           <div class="container">
             <h1 class="h-first">Effective Solutions for Your Business</h1>
-            <button type="button" class="studio-button">Order Service</button>
+            <button type="button" class="studio-button" data-modal-open>
+              Order Service
+            </button>
           </div>
         </section>
 
@@ -436,5 +438,15 @@
         </div>
       </footer>
     </div>
+    <div class="backgrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="close-button" data-modal-close>
+          <svg width="24" height="24" class="modal-close-svg">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
