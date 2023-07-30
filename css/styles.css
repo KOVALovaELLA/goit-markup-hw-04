@@ -546,12 +546,11 @@ transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 position: relative;
 overflow: hidden;
 }
-.portfolio-img:hover .portfolio-text-cover{
+.portfolio-link:hover .portfolio-text-cover,
+.portfolio-link:focus .portfolio-text-cover{
     transform: translateY(0%);
 }
-.portfolio-img:focus .portfolio-text-cover {
-    transform: translateY(0%);
-}
+
 .portfolio-img-i{
     display: block;
 }
