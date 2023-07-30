@@ -26,6 +26,7 @@
     /* background color icons*/
     --cloud:#F4F4FD;
     --iris: #4D5AE5;
+    --client:#8e8f99;
 }
 
 
@@ -331,6 +332,37 @@ padding-bottom: 120px;
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
    
+}
+.studio-customers-section{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+.studio-client-list{
+    display: flex;
+    gap: 24px;
+
+}
+.studio-client-li{
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+.studio-client-link{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius:4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--client);
+}
+.studio-client-link:focus,
+.studio-client-link:hover{
+    border-color: #404bbf;
+    color: #404bbf;
+}
+.studio-client-svg{
+    fill: currentColor;
 }
 .socials-list{
     display: flex;
